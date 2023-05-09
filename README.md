@@ -71,5 +71,5 @@
 
 
 ### 협업
-- https://github.com/Kim-Jin-Uk/blog-with-mark-down-editor 
-- 프론트엔드 개발자와 협업 
+- [깃허브 주소](https://github.com/Kim-Jin-Uk/blog-with-mark-down-editor)
+- 프론트엔드 개발자와 협업진행
