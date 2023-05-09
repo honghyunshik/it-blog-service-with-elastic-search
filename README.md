@@ -72,4 +72,4 @@
 
 ### 협업
 - https://github.com/Kim-Jin-Uk/blog-with-mark-down-editor 
-- 프론트엔드 개발자와 협업으로 
+- 프론트엔드 개발자와 협업 
