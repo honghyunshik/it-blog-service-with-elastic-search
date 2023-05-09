@@ -68,3 +68,8 @@
 
 ##### 마이페이지
 - 자신의 페이지에 포스트를 정리
+
+
+### 협업
+- https://github.com/Kim-Jin-Uk/blog-with-mark-down-editor 
+- 프론트엔드 개발자와 협업으로 
