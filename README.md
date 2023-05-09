@@ -16,23 +16,28 @@
 ### 사용할 기술
 
 #### 백엔드
-- Spring Boot(API Server)
-- Spring Sercurity(Security)
-- MariaDB(RDB)
+<img src="https://img.shields.io/badge/spring Boot-6DB33F?style=flat-square&logo=spring Boot&logoColor=white"/>
+<img src="https://img.shields.io/badge/spring Security-6DB33F?style=flat-square&logo=spring Security&logoColor=white"/>
+<img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=MariaDB&logoColor=white"/>
+<img src="https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=JUnit5&logoColor=white"/>
+<img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"/>
+<img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=Swagger&logoColor=white"/>
 - JPA, QueryDSL(OSM)
 - OAuth2.0, JWT(Login)
-- JUnit(Test)
-- AWS(Infra)
-- Swagger(Rest API)
+
 
 #### 형상관리
-- Git, GitHub
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/>
 
 #### 커뮤니케이션
-- Slack
+
+<img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=Slack&logoColor=white"/>
+
 
 #### 일정관리
-- Flow
+
+-Flow
 
 #### ERD
 - ERD Cloud
