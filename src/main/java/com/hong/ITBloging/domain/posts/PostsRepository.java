@@ -9,4 +9,6 @@ public interface PostsRepository extends JpaRepository<Posts,Long> {
 
     @Query("select p from Posts p order by p.regDate desc")
     List<Posts> findAllDesc();
+
+    List<Posts> findTop100ByOrderByRegDateDesc();
 }

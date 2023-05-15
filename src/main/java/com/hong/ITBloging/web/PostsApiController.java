@@ -16,7 +16,7 @@ public class PostsApiController {
 
     private final PostsService postsService;
 
-    @PostMapping("/api/v1/posts")
+    @PostMapping("/crawling/save/v1/posts")
     public void save(@RequestBody List<PostsSaveRequestDto> postsSaveRequestDtoList){
 
         for(PostsSaveRequestDto postsSaveRequestDto:postsSaveRequestDtoList){

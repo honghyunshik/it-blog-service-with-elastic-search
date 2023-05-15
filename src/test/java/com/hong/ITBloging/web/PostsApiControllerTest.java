@@ -1,5 +1,6 @@
 package com.hong.ITBloging.web;
 
+import com.hong.ITBloging.domain.posts.Posts;
 import com.hong.ITBloging.domain.posts.PostsRepository;
 import com.hong.ITBloging.web.IndexController;
 import com.hong.ITBloging.web.dto.PostsSaveRequestDto;
@@ -28,6 +29,18 @@ public class PostsApiControllerTest {
 
     @Autowired
     private PostsRepository postsRepository;
+
+    @Test
+    @DisplayName("메인화면 포스트 반환 테스트")
+    public void main_post_return() throws Exception{
+
+        List<Posts> postsList = postsRepository.findTop100ByOrderByRegDateDesc();
+        for(Posts posts:postsList){
+            System.out.println("id : " + posts.getId() + " content : " + posts.getContent() + " like : " + posts.getLike()
+            + " regDate : " + posts.getRegDate() + " title : " + posts.getTitle());
+        }
+
+    }
 
     @Test
     @DisplayName("포스트 저장 테스트")
