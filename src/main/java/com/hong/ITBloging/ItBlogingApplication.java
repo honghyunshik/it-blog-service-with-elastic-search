@@ -9,8 +9,8 @@ public class ItBlogingApplication {
 
 	public static void main(String[] args) {
 
-		CrawlingConfig crawlingConfig = new CrawlingConfig();
-		crawlingConfig.process();
+		//CrawlingConfig crawlingConfig = new CrawlingConfig();
+		//crawlingConfig.process();
 		SpringApplication.run(ItBlogingApplication.class, args);
 	}
 

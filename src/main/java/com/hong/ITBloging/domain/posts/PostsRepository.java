@@ -7,6 +7,6 @@ import java.util.List;
 
 public interface PostsRepository extends JpaRepository<Posts,Long> {
 
-    @Query("SELECT p FROM POSTS p ORDER BY p.regDate DESC")
+    @Query("select p from Posts p order by p.regDate desc")
     List<Posts> findAllDesc();
 }
