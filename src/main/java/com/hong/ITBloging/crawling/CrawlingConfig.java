@@ -13,9 +13,10 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
 
-@Component
+//@Component
 public class CrawlingConfig {
 
+    /*
     private WebDriver driver;
     private static final String VELOG = "https://velog.io/";
 
@@ -78,6 +79,8 @@ public class CrawlingConfig {
         return set;
 
     }
+    */
+
 
 
 

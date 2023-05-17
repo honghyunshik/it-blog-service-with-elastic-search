@@ -3,6 +3,7 @@ package com.hong.ITBloging.web;
 import com.hong.ITBloging.domain.posts.Posts;
 import com.hong.ITBloging.domain.posts.PostsRepository;
 import com.hong.ITBloging.service.posts.PostsService;
+import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
