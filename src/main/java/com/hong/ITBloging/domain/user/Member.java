@@ -8,26 +8,26 @@ import javax.persistence.*;
 @Getter
 @NoArgsConstructor
 @Entity
-public class User {
+public class Member {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "userid")
+    @Column(name = "memberid")
     private Long id;
 
-    @Column(name = "usernickname", nullable = false)
+    @Column(name = "membernickname", nullable = false)
     private String nickname;
 
-    @Column(name = "username", nullable = false)
+    @Column(name = "membername", nullable = false)
     private String name;
 
-    @Column(name = "usersex", nullable = false)
+    @Column(name = "membersex", nullable = false)
     private String sex;
 
-    @Column(name = "useremail", nullable = false)
+    @Column(name = "memberemail", nullable = false)
     private String email;
 
-    @Column(name = "userbirth", nullable = false)
+    @Column(name = "memberbirth", nullable = false)
     private String birth;
 
 

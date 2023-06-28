@@ -1,7 +1,6 @@
 package com.hong.ITBloging.web;
 
-import com.hong.ITBloging.domain.posts.PostsRepository;
-import com.hong.ITBloging.service.posts.PostsService;
+import com.hong.ITBloging.service.impl.PostsServiceImpl;
 import com.hong.ITBloging.web.dto.PostsSaveRequestDto;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
@@ -15,7 +14,7 @@ import java.util.List;
 @RestController
 public class PostsApiController {
 
-    private final PostsService postsService;
+    private final PostsServiceImpl postsService;
 
     //크롤링한 데이터 리스트 db에 저장하기
     @ApiOperation(value = "크롤링한 포스트 DB 저장", notes = "크롤링한 PostSaveRequestDto List를 DB에 저장한다")

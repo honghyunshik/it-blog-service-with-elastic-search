@@ -1,14 +1,11 @@
 package com.hong.ITBloging.web;
 
 import com.hong.ITBloging.domain.posts.Posts;
-import com.hong.ITBloging.domain.posts.PostsRepository;
-import com.hong.ITBloging.service.posts.PostsService;
-import io.swagger.annotations.ApiOperation;
+import com.hong.ITBloging.service.impl.PostsServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;
 
@@ -17,7 +14,7 @@ import java.util.List;
 public class IndexController {
 
     //메인 페이지
-    private final PostsService postsService;
+    private final PostsServiceImpl postsService;
 
     @GetMapping("/")
     public String index(Model model){
