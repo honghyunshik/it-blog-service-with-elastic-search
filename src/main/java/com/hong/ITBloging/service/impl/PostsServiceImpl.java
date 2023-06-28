@@ -3,7 +3,7 @@ package com.hong.ITBloging.service.impl;
 import com.hong.ITBloging.domain.posts.Posts;
 import com.hong.ITBloging.domain.posts.PostsRepository;
 import com.hong.ITBloging.service.PostsService;
-import com.hong.ITBloging.web.dto.PostsSaveRequestDto;
+import com.hong.ITBloging.model.PostsSaveRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

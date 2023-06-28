@@ -1,4 +1,4 @@
-package com.hong.ITBloging.web;
+package com.hong.ITBloging.controller;
 
 import com.hong.ITBloging.domain.posts.Posts;
 import com.hong.ITBloging.service.impl.PostsServiceImpl;

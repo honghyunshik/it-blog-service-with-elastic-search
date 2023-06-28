@@ -1,4 +1,4 @@
-package com.hong.ITBloging.domain.user;
+package com.hong.ITBloging.domain.member;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -26,6 +26,9 @@ public class Member {
 
     @Column(name = "memberemail", nullable = false)
     private String email;
+
+    @Column(name = "memberpassword", nullable = false)
+    private String password;
 
     @Column(name = "memberbirth", nullable = false)
     private String birth;

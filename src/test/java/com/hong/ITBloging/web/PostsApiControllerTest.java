@@ -2,22 +2,17 @@ package com.hong.ITBloging.web;
 
 import com.hong.ITBloging.domain.posts.Posts;
 import com.hong.ITBloging.domain.posts.PostsRepository;
-import com.hong.ITBloging.web.IndexController;
-import com.hong.ITBloging.web.dto.PostsSaveRequestDto;
-import org.junit.jupiter.api.AfterEach;
+import com.hong.ITBloging.model.PostsSaveRequestDto;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
-import org.springframework.test.web.servlet.MockMvc;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;

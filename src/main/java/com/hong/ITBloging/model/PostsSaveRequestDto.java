@@ -1,4 +1,4 @@
-package com.hong.ITBloging.web.dto;
+package com.hong.ITBloging.model;
 
 import com.hong.ITBloging.domain.posts.Posts;
 import lombok.Builder;
@@ -7,22 +7,14 @@ import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
 @Getter
-@NoArgsConstructor
+@Builder
+@RequiredArgsConstructor
 public class PostsSaveRequestDto {
 
-    private String title;
-    private String regDate;
-    private int like;
-    private String content;
-
-    @Builder
-    public PostsSaveRequestDto(String title, String regDate, int like, String content){
-
-        this.title = title;
-        this.regDate = regDate;
-        this.like = like;
-        this.content = content;
-    }
+    private final String title;
+    private final String regDate;
+    private final int like;
+    private final String content;
 
 
     public Posts toEntity(){

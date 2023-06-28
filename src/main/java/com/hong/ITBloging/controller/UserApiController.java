@@ -1,4 +1,4 @@
-package com.hong.ITBloging.web;
+package com.hong.ITBloging.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.RestController;

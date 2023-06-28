@@ -1,7 +1,7 @@
 package com.hong.ITBloging.service;
 
 import com.hong.ITBloging.domain.posts.Posts;
-import com.hong.ITBloging.web.dto.PostsSaveRequestDto;
+import com.hong.ITBloging.model.PostsSaveRequestDto;
 
 import java.util.List;
 

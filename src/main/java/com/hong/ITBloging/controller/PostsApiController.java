@@ -1,7 +1,7 @@
-package com.hong.ITBloging.web;
+package com.hong.ITBloging.controller;
 
 import com.hong.ITBloging.service.impl.PostsServiceImpl;
-import com.hong.ITBloging.web.dto.PostsSaveRequestDto;
+import com.hong.ITBloging.model.PostsSaveRequestDto;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;

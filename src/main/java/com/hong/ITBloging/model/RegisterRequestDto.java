@@ -1,4 +1,4 @@
-package com.hong.ITBloging.web.dto;
+package com.hong.ITBloging.model;
 
 public class RegisterRequestDto {
 }
