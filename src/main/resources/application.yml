@@ -1,4 +1,6 @@
 spring:
+  resources:
+    static-locations: classpath:/static/
   datasource:
     maximum-pool-size: 4
     url: jdbc:postgresql://localhost:5432/postgres
@@ -14,4 +16,5 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 server:
   port : 8081
+
 
